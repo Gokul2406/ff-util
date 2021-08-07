@@ -1,5 +1,7 @@
 pub mod run {
     use std::path::Path;
+
+    use colored::*;
     pub fn run(dir: &Path, required_ext: &String) {
         let files = std::fs::read_dir(dir).unwrap();
         for file in files {
@@ -10,7 +12,7 @@ pub mod run {
                         if ext.contains(required_ext) {
                             for matched_file in &file {
                                 if let Some(matched) = matched_file.file_name().to_str() {
-                                    println!("{:?}", matched);
+                                    println!("{}", matched.bold().yellow());
                                 }
                             }
                         }

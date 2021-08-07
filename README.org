@@ -21,7 +21,7 @@ cargo install --path .
 You are ready to go
 
 ** Binary Installation
-I will be adding it to crates.io after coloured output is finished
+I will be adding it to crates.io after coloured output is finished. For now you can install it using the release page
 
 ** Usage
 Run

@@ -27,5 +27,6 @@ I will be adding it to crates.io after coloured output is finished
 Run
 #+begin_src bash
 ff [PATH] [FILE/FILE-EXTENSION]
+#+end_src
 * Features planning to be added
 Coloured output:- Coming really soon

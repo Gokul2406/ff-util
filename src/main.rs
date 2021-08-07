@@ -8,6 +8,12 @@ fn main() {
             let path = Path::new(&args[1]);
             lib::run::run(path, &args[2])
         },
-        _ => eprintln!("Run ff --help")
+        _ => eprintln!("
+File finder needs some arguments here is how you should run it\n
+ff [DIRECTORY] [FILE/FILE EXTENSION]\n
+Example \n
+ff ~/wallpapers wallpaper.png
+
+                       ")
     }
 }

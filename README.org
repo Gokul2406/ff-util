@@ -21,12 +21,15 @@ cargo install --path .
 You are ready to go
 
 ** Binary Installation
-I will be adding it to crates.io after coloured output is finished. For now you can install it using the release page
+You can download the binary from crates.io using the command
+#+begin_src
+cargo install ff-util
+#+end_src
+
+Also you can install it from the release page of the repository
 
 ** Usage
 Run
 #+begin_src bash
 ff [PATH] [FILE/FILE-EXTENSION]
 #+end_src
-* Features planning to be added
-Coloured output:- Coming really soon

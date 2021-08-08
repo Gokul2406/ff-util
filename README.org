@@ -1,4 +1,4 @@
-#+TITLE: FF
+#+TITLE: FF-util
 
 * Goal of this Project
 The main goal of this project is to make it easy to find files in a directory. Rather than listing the files of the directory and either searching the file through them by using grep or your eyes can be a pain. ff reduces that pain by accomplishing the task using a single command making it really easy
@@ -12,7 +12,7 @@ Easiness of searching files throughout your filesystem
 ** Compiling from source
 Clone the repo using
 #+begin_src bash
-git clone https://github.com/Gokul2406/ff
+git clone https://github.com/Gokul2406/ff-util
 #+end_src
 Then run
 #+begin_src bash

@@ -2,6 +2,13 @@
 name = "ff"
 version = "0.1.1"
 edition = "2018"
+license = "GPL-2.0-or-later"
+description = "A command line utility to search for files and file extensions in a given directory"
+readme = "README.org"
+repository = "https://github.com/Gokul2406/ff"
+license-file = "LICENSE"
+keywords = ["cli", "unix", "linux", "terminal"]
+categories = ["command-line-utilities"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
